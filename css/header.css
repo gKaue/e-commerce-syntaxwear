@@ -12,7 +12,7 @@
 
     border-radius: 15px;
 
-    padding: 20px 28px;
+    padding: 12px 20px;
 }
 
 .nav-bar {
@@ -22,7 +22,7 @@
 }
 
 .logo img {
-    height: 40px;
+    width: 150px;
 }
 
 .nav-center ul,
