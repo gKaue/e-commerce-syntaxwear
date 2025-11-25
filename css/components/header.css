@@ -1,0 +1,53 @@
+/* ESTILO DO MENU */
+
+.header {
+    background-color: #fff;
+    position: fixed;
+
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%);
+
+    width: calc(100% - 80px);
+
+    border-radius: 15px;
+
+    z-index: 999;
+
+    padding: 12px 20px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.nav-center ul,
+.nav-right ul {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.nav-center a,
+.nav-right a {
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: --var(--font-color-menu);
+}
+.nav-center a:hover,
+.nav-right a:hover {
+    color: #7c3aed;
+}
+
+.nav-right ul svg:hover {
+    opacity: .7;
+}
+
+body{
+    background-color: black;
+}
