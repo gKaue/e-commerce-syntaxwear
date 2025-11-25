@@ -2,4 +2,7 @@
 
 :root{
     --main-font: 'Ubuntu', sans-serif;
+
+    /* COLOR PALLETE */
+    --font-color-menu: #333;
 }
