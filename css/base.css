@@ -4,3 +4,35 @@ body {
     background-color: #fff;
     color: #333;
 }
+
+.btn {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: white;
+
+    width: 161px;
+    height: 48px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 25px;
+
+    transition: background-color .3s, border .3s;
+}
+
+.btn:hover {
+    background-color: #6329A2;
+    border-color: #6329A2;
+    color: white;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 2px solid white;
+}
+
+.btn-filled {
+    background-color: #fff;
+    color: #6329A2;
+}

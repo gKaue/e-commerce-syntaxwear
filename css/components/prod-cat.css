@@ -1,0 +1,79 @@
+.overlay::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.25);
+    border-radius: 15px;
+    transition: background 0.3s;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.cat-card:hover .overlay::after {
+    background: rgba(0,0,0,0.4);
+}
+/* PRODUCT CATEGORIES CSS */
+
+.cat-section {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cat-card {
+    width: 317px;
+    height: 500px;
+    border-radius: 15px;
+
+    position: relative;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 0;
+
+    background-color: transparent;
+}
+
+.cat-card .overlay {
+    position: absolute;
+    
+    inset: 0;
+
+    width: 100%;
+    height: 100%;
+
+    z-index: 2;
+}
+
+.casual {
+    background: url(../../images/categorias/tenis-casual.png);
+    background-size: cover;
+    background-position: center;
+}
+.esportivo {
+    background: url(../../images/categorias/tenis-exportivo.png);
+    background-size: cover;
+    background-position: center;
+}
+.colorido {
+    background: url(../../images/categorias/tenis-colorido.png);
+    background-size: cover;
+    background-position: center;
+}
+.futurista {
+    background: url(../../images/categorias/tenis-futurista.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.cat-card .btn {
+    position: relative;
+    z-index: 2;
+}

@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Loja online de tênis e moda urbana. Encontre os melhores estilos e ofertas exclusivas na SyntaxWear.">
-    
+    <meta name="description"
+        content="Loja online de tênis e moda urbana. Encontre os melhores estilos e ofertas exclusivas na SyntaxWear.">
+
     <title>SyntaxWear - Tênis e Moda Urbana</title>
     <!-- CSS -->
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/variables.css">
     <link rel="stylesheet" href="./css/base.css">
-    <link rel="stylesheet" href="./css/layout.css">
 
     <link rel="stylesheet" href="./css/components/header.css">
     <link rel="stylesheet" href="./css/components/hero.css">
+    <link rel="stylesheet" href="./css/components/prod-cat.css">
 </head>
+
 <body>
     <!-- Cabeçalho -->
     <header class="header">
         <div class="nav-bar">
             <div class="nav-left">
                 <a href="/">
-                    <img src="./images/logo/logo.svg" alt="SyntaxWear - Tênis e Moda Urbana" title="SyntaxWear - Tênis e Moda Urbana">
+                    <img src="./images/logo/logo.svg" alt="SyntaxWear - Tênis e Moda Urbana"
+                        title="SyntaxWear - Tênis e Moda Urbana">
                 </a>
             </div>
             <nav class="nav-center" aria-label="Categorias Principais">
@@ -37,7 +41,8 @@
                     <li><a href="#">Sobre</a></li>
                     <li>
                         <a href="#" aria-label="Perfil">
-                            <svg class="icon-user" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#9B5DE5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <svg class="icon-user" width="22" height="22" viewBox="0 0 24 24" fill="none"
+                                stroke="#9B5DE5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <circle cx="12" cy="8" r="4" />
                                 <path d="M4 20c0-4 8-4 8-4s8 0 8 4" />
                             </svg>
@@ -45,7 +50,8 @@
                     </li>
                     <li>
                         <a href="#" aria-label="Ajuda">
-                            <svg class="icon-help" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#9B5DE5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <svg class="icon-help" width="22" height="22" viewBox="0 0 24 24" fill="none"
+                                stroke="#9B5DE5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <circle cx="12" cy="12" r="10" />
                                 <path d="M9.09 9a3 3 0 1 1 5.83 1c0 2-3 3-3 3" />
                                 <line x1="12" y1="17" x2="12" y2="17" />
@@ -54,7 +60,8 @@
                     </li>
                     <li>
                         <a href="#" aria-label="Carrinho">
-                            <svg class="icon-bag" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#9B5DE5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <svg class="icon-bag" width="22" height="22" viewBox="0 0 24 24" fill="none"
+                                stroke="#9B5DE5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <path d="M6 2l1.5 4h9L18 2" />
                                 <path d="M3 6h18l-1.68 13.39A2 2 0 0 1 17.34 21H6.66a2 2 0 0 1-1.98-1.61L3 6z" />
                                 <circle cx="9" cy="10" r="1" />
@@ -68,32 +75,80 @@
     </header>
 
     <main class="main">
+        <!-- Seção hero -->
         <section class="hero">
-            <!-- Seção hero -->
-             <div class="hero-overlay">
+            <div class="hero-overlay">
                 <div class="hero-content">
                     <span class="hero-subtitle">Kripton One</span>
                     <h2 class="hero-title">Transforme qualquer passo em presença.</h2>
-                    
+
                     <div class="hero-buttons">
                         <a href="#" class="btn btn-outline">Ver modelos</a>
                         <a href="#" class="btn btn-filled">Comprar</a>
                     </div>
                 </div>
-             </div>
+            </div>
         </section>
 
+        <!-- Categorias de tênis -->
         <section class="cat-section">
-            <!-- Categorias de tênis -->
+
+            <div class="cat-card">
+                <a href="#" class="cat-link">
+                    <span class="overlay casual">
+                        <!-- Casual -->
+                    </span>
+                    <span class="btn btn-outline">
+                        Casual
+                    </span>
+                </a>
+            </div>
+
+            <div class="cat-card">
+                <a href="#" class="cat-link">
+                    <span class="overlay esportivo">
+                        <!-- Esporte -->
+                    </span>
+                    <span class="btn btn-outline">
+                        Esporte
+                    </span>
+                </a>
+            </div>
+
+            <div class="cat-card">
+                <a href="#" class="cat-link">
+                    <span class="overlay colorido">
+                        <!-- Colorido -->
+                    </span>
+                    <span class="btn btn-outline">
+                        Colorido
+                    </span>
+                </a>
+            </div>
+
+            <div class="cat-card">
+                <a href="#" class="cat-link">
+                    <span class="overlay futurista">
+                        <!-- Futurista -->
+                    </span>
+                    <span class="btn btn-outline">
+                        Futurista
+                    </span>
+                </a>
+            </div>
+
         </section>
 
+        <!-- Grid de produtos em destaque -->
         <section class="feat-prod">
-            <!-- Grid de produtos em destaque -->
+
         </section>
     </main>
 
+    <!-- Informações de contato e links -->
     <footer class="footer">
-        <!-- Informações de contato e links -->
+
     </footer>
 </body>
+
 </html>
