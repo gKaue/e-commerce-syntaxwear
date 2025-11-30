@@ -4,17 +4,17 @@
     background-color: #fff;
     position: fixed;
 
-    top: 40px;
+    top: 60px;
     left: 50%;
     transform: translate(-50%);
 
-    width: calc(100% - 80px);
+    width: calc(100% - 120px);
 
     border-radius: 15px;
 
     z-index: 999;
 
-    padding: 12px 20px;
+    padding: 12px 40px;
 }
 
 .nav-bar {

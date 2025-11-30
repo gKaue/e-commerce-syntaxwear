@@ -1,0 +1,63 @@
+/* FEATURED PRODUCTS GRID */
+.top1 {
+    grid-area: top1;
+    background: url(../../images/products/modelo-homem-mini.png) no-repeat center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top2 {
+    grid-area: top2;
+    background: url(../../images/products/tenis-roxo-verde.png) no-repeat center;
+}
+
+.mid1 {
+    grid-area: mid1;
+    background: url(../../images/products/modelo-mulher.png) no-repeat center;
+}
+
+.mid2 {
+    grid-area: mid2;
+    background: url(../../images/products/tenis-colorido.png) no-repeat center;
+}
+
+.bot1 {
+    grid-area: bot1;
+    background: url(../../images/products/tenis-preto-azul.png) no-repeat center;
+}
+
+.bot2 {
+    grid-area: bot2;
+    background: url(../../images/products/tenis-cinza.png) no-repeat center;
+}
+
+.grid-section {
+    display: grid;
+    grid-template-columns: repeat (4, 1fr);
+    grid-template-rows: repeat(3,300px);
+    grid-template-areas:
+        "top1 top1 top2 top2"
+        "top1 top1 mid1 mid2"
+        "bot1 bot1 mid1 bot2";
+    gap: 30px;
+    margin: 40px;
+}
+
+.card {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 20px;
+}
+
+.card .hero-content {
+    font-weight: 500 !important;
+}
+
+.card .hero-title {
+    font-size: 1.5rem !important;
+    margin-bottom: 10px !important;
+}
