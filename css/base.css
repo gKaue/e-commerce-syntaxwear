@@ -10,13 +10,13 @@ body {
     font-weight: 400;
     color: white;
 
-    width: 161px;
-    height: 48px;
-    padding: 10px 20px;
+    width: 10.06rem;
+    height: 3rem;
+    padding: 0.625rem 1.25rem;
     justify-content: center;
     align-items: center;
 
-    border-radius: 25px;
+    border-radius: 1.5625rem;
 
     transition: background-color .3s, border .3s;
 }
@@ -29,7 +29,7 @@ body {
 
 .btn-outline {
     background: transparent;
-    border: 2px solid white;
+    border: 0.125rem solid white;
 }
 
 .btn-filled {

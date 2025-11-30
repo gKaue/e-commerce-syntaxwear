@@ -3,7 +3,7 @@
 .footer {
   background: #333;
   color: #fff;
-  padding: 40px 0 0 0;
+  padding: 2.5rem 0 0 0;
   font-family: var(--main-font);
 }
 
@@ -11,14 +11,14 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  max-width: 1200px;
+  max-width: 75rem;
   margin: 0 auto;
-  padding: 0 80px;
+  padding: 0 5rem;
 }
 
 .footer-left {
   flex: 1;
-  min-width: 220px;
+  min-width: 13.75rem;
 }
 
 .footer-newsletter label {
@@ -28,27 +28,27 @@
 
 .footer-newsletter input[type="email"] {
   width: 100%;
-  max-width: 260px;
-  padding: 8px 16px;
-  border-radius: 20px;
+  max-width: 16.25rem;
+  padding: 0.5rem 1rem;
+  border-radius: 1.25rem;
   border: none;
   font-size: 1rem;
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
 }
 
 .footer-social {
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
 }
 
 .footer-social span {
   display: block;
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
   font-size: 1rem;
 }
 
 .social-list {
   display: flex;
-  gap: 16px;
+  gap: 1rem;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -58,10 +58,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 32px;
-    height: 32px;
+    width: 2rem;
+    height: 2rem;
     border-radius: 50%;
-    border: solid 2px #fff;
+    border: solid 0.125rem #fff;
     color: #fff;
     font-size: 1.3rem;
     transition: background 0.2s;
@@ -76,11 +76,11 @@
   display: flex;
   flex: 2;
   justify-content: space-between;
-  gap: 16px;
+  gap: 1rem;
 }
 
 .footer-menu {
-  min-width: 120px;
+  min-width: 7.5rem;
   font-size: 1.25rem;
 }
 
@@ -88,7 +88,7 @@
   display: block;
   font-weight: 400;
   color: #ededed;
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
   font-weight: 500;
 }
 
@@ -100,7 +100,7 @@
 }
 
 .footer-menu ul li a {
-  margin-bottom: 4px;
+  margin-bottom: 0.25rem;
   color: #fff;
 }
 .footer-menu ul li a:hover {
@@ -108,13 +108,13 @@
 }
 
 .footer-menu ul li:not(:last-child) {
-  margin-bottom: 4px;
+  margin-bottom: 0.25rem;
 }
 
 .footer-divider {
   border: none;
-  border-top: 2px solid #bbb;
-  margin: 32px 0 16px 0;
+  border-top: 0.125rem solid #bbb;
+  margin: 2rem 0 1rem 0;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
