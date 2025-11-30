@@ -68,7 +68,8 @@
 }
 
 .social-list li a:hover {
-  background: #555;
+  background-color: #7c3aed;
+  border-color: #7c3aed;
 }
 
 .footer-menus {
