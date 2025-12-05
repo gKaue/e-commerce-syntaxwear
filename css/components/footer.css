@@ -10,7 +10,7 @@
 .footer-content {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   max-width: 75rem;
   margin: 0 auto;
   padding: 0 5rem;
@@ -55,16 +55,16 @@
 }
 
 .social-list li a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 2rem;
-    height: 2rem;
-    border-radius: 50%;
-    border: solid 0.125rem #fff;
-    color: #fff;
-    font-size: 1.3rem;
-    transition: background 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: solid 0.125rem #fff;
+  color: #fff;
+  font-size: 1.3rem;
+  transition: background 0.2s;
 }
 
 .social-list li a:hover {
@@ -103,8 +103,9 @@
   margin-bottom: 0.25rem;
   color: #fff;
 }
+
 .footer-menu ul li a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .footer-menu ul li:not(:last-child) {
@@ -124,4 +125,16 @@
   text-align: center;
   font-size: 1rem;
   color: #fff;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1024px) {
+  .footer-content {
+    width: 100%;
+  }
+
+  .footer-newsletter input[type="email"] {
+    width: 80%;
+  }
 }

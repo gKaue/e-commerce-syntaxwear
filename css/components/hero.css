@@ -3,9 +3,11 @@
 .hero {
     background: url(../../images/banners/modelo-homem.png) no-repeat center;
     background-size: cover;
+
+    width: calc(100% - 5rem);
     height: 31.25rem;
+    
     position: relative;
-    background-size: cover;
     z-index: 998;
     margin: 2.5rem;
     border-radius: 1.25rem;
@@ -72,4 +74,33 @@
 .btn-filled {
     background-color: #fff;
     color: #6329A2;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1024px) {
+    .hero {
+        height: 25rem;
+        margin: 2rem;
+        width: calc(100% - 4rem);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-overlay {
+        justify-content: center;
+    }
+
+    .hero-content {
+        margin-top: 1rem;
+        padding: 0 1rem;
+
+        min-width: 100%;
+    }
+
+    .hero-title, .hero-subtitle {
+        margin-bottom: 20px;
+    }
 }

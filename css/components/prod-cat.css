@@ -76,3 +76,12 @@
     position: relative;
     z-index: 2;
 }
+
+/* RESPONSIVE */
+
+@media (max-width: 1024px) {
+    .cat-section {
+        padding: 0.625rem 2rem;
+        gap: 1rem;
+    }
+}

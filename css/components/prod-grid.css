@@ -61,3 +61,10 @@
     font-size: 1.5rem !important;
     margin-bottom: 0.625rem !important;
 }
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+    .grid-section {
+        margin: 2rem;
+    }
+}

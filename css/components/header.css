@@ -3,7 +3,7 @@
 .header {
     background-color: #fff;
     position: fixed;
-    top: 3.75rem;
+    top: 3.5rem;
     left: 50%;
     transform: translate(-50%);
     width: calc(100% - 7.5rem);
@@ -16,7 +16,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 .logo img {
@@ -74,7 +73,7 @@
 
 /* RESPONSIVO */
 
-@media (max-width:1200px){
+@media (max-width:1280px){
     .header{
         width: calc(100% - 8rem);
     }
@@ -128,5 +127,16 @@
 
     .menu-toggle:checked ~ .nav-container {
         right: 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header {
+        width: 90vw;
+        padding: 0.625rem 1.25rem;
+    }
+
+    .nav-bar {
+        width: 100%;
     }
 }
