@@ -47,35 +47,6 @@
     justify-content: center;
 }
 
-.btn {
-    font-size: 1.25rem;
-    font-weight: 400;
-    color: white;
-    width: 10.06rem;
-    height: 3rem;
-    padding: 0.625rem 1.25rem;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1.5625rem;
-    transition: background-color .3s, border .3s;
-}
-
-.btn:hover {
-    background-color: #6329A2;
-    border-color: #6329A2;
-    color: white;
-}
-
-.btn-outline {
-    background: transparent;
-    border: 0.125rem solid white;
-}
-
-.btn-filled {
-    background-color: #fff;
-    color: #6329A2;
-}
-
 /* RESPONSIVE */
 
 @media (max-width: 1024px) {
@@ -91,6 +62,7 @@
 
     .hero-overlay {
         justify-content: center;
+        padding: 0;
     }
 
     .hero-content {
@@ -102,5 +74,27 @@
 
     .hero-title, .hero-subtitle {
         margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero {
+        height: 41rem;
+        width: calc(100% - 20px);
+        margin: 10px;
+
+        background-origin: -290px -100px;
+        background-size: 120rem;
+        background-position: -25rem -10rem;
+    }
+
+    .hero-title {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .hero {
+        background-position: -28rem -10rem;
     }
 }

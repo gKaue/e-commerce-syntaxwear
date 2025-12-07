@@ -134,6 +134,15 @@
     width: 100%;
   }
 
+  .footer-content, .footer-left, .footer-menus {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .social-list {
+    justify-content: center;
+  }
+
   .footer-newsletter input[type="email"] {
     width: 80%;
   }

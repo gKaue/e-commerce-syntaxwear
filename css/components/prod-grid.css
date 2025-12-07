@@ -68,3 +68,27 @@
         margin: 2rem;
     }
 }
+
+@media (max-width: 768px) {
+    .grid-section {
+        gap: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+    .grid-section {
+        margin: 10px;
+
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(7, 11.875rem);
+        grid-template-areas:
+            "top1 top1"
+            "top1 top1"
+            "top1 top1"
+            "bot1 bot1"
+            "mid1 mid2"
+            "mid1 bot2"
+            "top2 top2";
+        gap: 10px;
+    }
+}
